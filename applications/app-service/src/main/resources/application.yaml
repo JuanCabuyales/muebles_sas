@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: "MueblesSAS"
+  devtools:
+    add-properties: false
+aws:
+  dynamodb:
+    endpoint: "http://localhost:8000"
+    region: "us-east-1"
+    accessKey: "local"
+    secretKey: "local"
